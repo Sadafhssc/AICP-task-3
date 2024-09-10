@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <nav class="navbar2">
+        <ul>
+            <h2>CoreApp</h2>
+            <li><a href="index.html"><i class="fa-solid fa-house"></i>  Home</a></li>
+            <li><a href="index1.html"><i class="fa-solid fa-book-open-reader"></i>  Admin Dashboard</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="box">
+            <div class="box-1">
+            <h2>GET IN TOUCH</h2>
+            <form id="add-city-form">
+                <div class="city box1">
+                <input type="text" id="city-name" placeholder="Enter city name">
+                <input type="text" id="category-name" placeholder="Enter business category">
+                <input type="text" id="business-name" placeholder=" Enter business name">
+                <input type="text" id="name" placeholder="Enter your name">
+                <input type="text" id="exeprience" placeholder=" Enter your experience">
+                <button id="btn" onclick='addJob()'>Add Business</button>
+                <button id="btn" onclick='displayJobs()'>Display Business</button></div>
+            </form></div></div>
+            <div class="details"></div>
+    <script src="app.js"></script>
+</body>
+</html>
